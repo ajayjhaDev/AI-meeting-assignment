@@ -14,7 +14,7 @@ A small utility that turns raw sprint metrics into a leadership-ready weekly sta
 Requires Python 3.8+. There are no third-party dependencies.
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ajayjhaDev/AI-meeting-assignment.git
 cd psi-status-reporter
 python app.py sample_data.json
 ```
