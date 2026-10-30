@@ -1,0 +1,25 @@
+{
+  "project": "AI Meeting Assistant (MVP)",
+  "sprint": {"number": 3, "day": 7, "total_days": 10, "committed_points": 58, "completed_points": 33},
+  "velocity_history": [41, 52, 56],
+  "bugs": {"open": 19, "critical_open": 0, "closed_this_week": 11},
+  "milestones": [
+    {"name": "PRD and design sign-off", "date": "Week 2", "status": "Done"},
+    {"name": "Record to transcript end-to-end demo", "date": "Week 4", "status": "Done"},
+    {"name": "Summary and action items alpha", "date": "Week 6", "status": "At Risk"},
+    {"name": "Integrations feature complete", "date": "Week 8", "status": "On Track"},
+    {"name": "MVP go-live", "date": "Week 12", "status": "On Track"}
+  ],
+  "risks": [
+    {"name": "Speaker identification accuracy below target", "severity": 16, "owner": "AI/ML Lead", "status": "Open", "mitigation": "Benchmark two diarization vendors; fallback to manual speaker labels"},
+    {"name": "Meeting bot vendor API rate limits", "severity": 12, "owner": "Backend Lead", "status": "Open", "mitigation": "Queue and retry; negotiate higher quota"},
+    {"name": "Scope creep from new requests", "severity": 15, "owner": "TPM", "status": "Open", "mitigation": "Change control board; trade-off review"},
+    {"name": "Security review findings", "severity": 10, "owner": "Backend Lead", "status": "Open", "mitigation": "Threat model in Sprint 4; pen-test in Sprint 5"}
+  ],
+  "blockers": [
+    {"text": "Jira OAuth app approval pending with client IT", "owner": "Product Manager", "resolved": false},
+    {"text": "GPU quota increase for summarization load test", "owner": "TPM", "resolved": false}
+  ],
+  "budget": {"spent_pct": 46, "planned_pct": 48},
+  "decisions_needed": ["Approve defer of voice cloning to post-MVP", "Confirm HubSpot as first CRM target"]
+}
